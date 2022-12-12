@@ -1,18 +1,15 @@
 ﻿
 Backpack blueBag = new Backpack("Blue", "Small");
-Backpack RedBag = new Backpack("Red", "Medium");
-Backpack GreenBag = new Backpack("Green", "Large");
+Backpack redBag = new Backpack("Red", "Medium");
+Backpack greenBag = new Backpack("Green", "Large");
 
-
-Backpack myBag = new Backpack("Black", "Medium");
-
-myBag.openBag();
-myBag.putIn("lunch");
-myBag.putIn("jacket");
-myBag.closeBag();
-myBag.openBag();
-myBag.takeOut("jacket");
-myBag.closeBag();
+redBag.openBag();
+redBag.putIn("lunch");
+redBag.putIn("jacket");
+redBag.closeBag();
+redBag.openBag();
+redBag.takeOut("jacket");
+redBag.closeBag();
 
 
 class Backpack
